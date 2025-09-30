@@ -1,0 +1,31 @@
+Run Server:
+
+python group_chat.py
+
+
+Enter server when prompted.
+
+Server starts and waits for clients.
+
+Run Clients:
+
+Open new terminals for each client.
+
+Run:
+
+python group_chat.py
+
+
+Enter client and provide a username.
+
+Chat:
+
+Type messages and press Enter.
+
+Messages are broadcast to all connected clients.
+
+Exit:
+
+Closing a client notifies others: username left the chat.
+
+Notes: Use 127.0.0.1 for local testing or LAN IP for multiple devices. Default port is 5000.
